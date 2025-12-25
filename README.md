@@ -1,40 +1,35 @@
-# Fitness Chatbot – Starter Template (Track A)
+# Adaptive Fitness Companion Chatbot (Track A)
 
-This repository is a **starter template** for the React Native assignment.
+This project is an AI-powered fitness companion chatbot built using **React Native (Expo – Managed Workflow)** and **OpenAI APIs**.
+
+The chatbot provides structured fitness and wellness guidance while adapting its tone, structure, and coaching style based on:
+- User personality
+- App usage duration
+- Basic lifestyle context (dummy data)
+
+This app is **not a medical tool** and follows strict safety guardrails.
+
+---
 
 ## Tech Stack
-- React Native (Expo – Managed Workflow)
-- Expo SDK 50
-- Node.js 20 (LTS)
 
-## What This Repo Contains
-- Standard Expo setup
-- Fixed folder structure
-- Version-locked environment
+### Frontend
+- React Native
+- Expo (Managed Workflow)
+- Expo Router
+- TypeScript
+- React Native Reanimated
 
-## What This Repo Does NOT Contain
-- No AI logic
-- No prompt logic
-- No safety logic
-- No UI implementation
+### Backend
+- Node.js (v20.x LTS)
+- Express.js
 
-All functionality must be implemented by the candidate.
+### AI
+- OpenAI Chat / Responses API
+- GPT-based model
 
----
-
-## Mandatory Rules
-
-- Use **Expo Managed Workflow only**
-- Do **not eject**
-- Do **not change Expo SDK version**
-- Use **Node.js 20.x**
-- Do **not commit API keys**
-- Follow provided folder structure
+### Storage
+- AsyncStorage (frontend state)
+- Database (backend) for storing chat history
 
 ---
-
-## How Evaluators Will Run the App
-
-```bash
-npm install
-npx expo start
